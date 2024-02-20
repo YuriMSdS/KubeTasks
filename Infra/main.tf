@@ -6,3 +6,14 @@ provider "google" {
 
 variable "google_credentials_path" {}
 
+resource "google_container_credentials" "my_cluster" {
+    name     = "cluster1"
+    location = "southamerica-east1"
+
+    remove_default_node_pool = true
+
+    node_pool {
+        machine_type = "n1-standartd-2"
+        initial_node_count = 1
+    }
+}
