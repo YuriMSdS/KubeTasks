@@ -1,3 +1,4 @@
+//Declaração de variáveis 
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -8,7 +9,7 @@ let tasks = [];
 
 app.user(bodyParser.json());
 
-//esta aqui é a rota para obter *todas* as tasks
+//Esta é a rota para obter *todas* as tasks
 app.get('/tasks', (req, res) => {
     res.json(tasks);
 });
@@ -20,6 +21,7 @@ app.post('./tasks', (req, res) => {
         return res.status(400).json({ error: 'Descrição da tarefa é obrigatória' });
     }
 
+    //Criação de uma nova tarefa 
     const newTask = {
         id: tasks.length + 1,
         description,
