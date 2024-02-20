@@ -1,3 +1,12 @@
 stages:
   - build
   - deploy
+
+variables:
+  CONTAINER_IMAGE: https://gitlab.com/personalprojects9053307/DevOpsProject/-/tree/main?ref_type=heads
+
+build:
+  stage: build
+  script:
+  - docker build -t $DevOpsProject 
+  - docker push $DevOpsProject
