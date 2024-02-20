@@ -10,3 +10,9 @@ build:
   script:
   - docker build -t $DevOpsProject 
   - docker push $DevOpsProject
+
+deploy:
+  stage: deploy
+  script:
+    - kubectl apply -f k8s/deployment.yaml
+    - kubectl apply -f k8s/service.yaml
