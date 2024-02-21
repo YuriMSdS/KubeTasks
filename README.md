@@ -2,7 +2,7 @@
 Visando meu aprimoramento na área de DevOps, busquei desenvolver uma aplicação completa na qual eu desenvolvi a aplicação em si, arquitetei a infra e o processo de automatização
 
 ## Visão Geral
-neste projeto utilizei docker para virtualizar minhas aplicações e kubernetes para gerenciar meus contêineres, o cluster está alocado na GCP e o app é uma API REST utilizando node, para integração do sistema desenvolvi uma pipeline no gitlab.
+Neste projeto utilizei Docker para virtualizar minhas aplicações e Kubernetes para gerenciar meus contêineres, o cluster está alocado na GCP e o app é uma API REST para uma ToDoList utilizando Node.JS, para integração do sistema desenvolvi uma pipeline no gitlab.
 
 ## Tecnologias utilizadas:
     Node.JS
