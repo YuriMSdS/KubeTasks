@@ -3,13 +3,13 @@ stages:
   - deploy
 
 variables:
-  CONTAINER_IMAGE: ProjProd
+  CONTAINER_IMAGE: ProjProd:latest
 
 build:
   stage: build
   script:
-  - docker build -t $DevOpsProject 
-  - docker push $DevOpsProject
+    - docker build -t $CONTAINER_IMAGE .
+    - docker push $CONTAINER_IMAGE
 
 deploy:
   stage: deploy
