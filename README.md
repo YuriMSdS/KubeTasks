@@ -33,6 +33,8 @@ Organização do projeto:
 ## Pré-requisitos
 Node.js, Docker, Terraform, conta na GCP, Git
 
+
+## Build
 >Construção da Imagem
 
     docker build -t registry.gitlab.com/seuprojeto/nome-da-aplicacao .
@@ -48,17 +50,18 @@ Node.js, Docker, Terraform, conta na GCP, Git
     npm install
     npm start
 
-Implantação
-Detalhes sobre como implantar a aplicação em um ambiente de produção.
-
-GitLab CI/CD
+## GitLab CI/CD
 O projeto utiliza o GitLab CI/CD para automação. O estágio de build cria e envia a imagem do Docker para o registro. O estágio de deploy utiliza o Kubernetes para implantar a aplicação.
 
-Contribuição
-Instruções sobre como outros desenvolvedores podem contribuir para o projeto.
+## Contribuição
+>Instruções sobre como outros desenvolvedores podem contribuir para o projeto.
 
-Faça um fork do projeto
-Crie uma branch para a sua contribuição (git checkout -b feature/nova-feature)
-Faça commits das suas alterações (git commit -am 'Adiciona nova feature')
-Faça um push para a branch (git push origin feature/nova-feature)
-Abra um pull request
+    Faça um fork do projeto
+    
+    Crie uma branch para a sua contribuição (git checkout -b feature/nova-feature)
+    
+    Faça commits das suas alterações (git commit -am 'Adiciona nova feature')
+    
+    Faça um push para a branch (git push origin feature/nova-feature)
+    
+    Abra um pull request
