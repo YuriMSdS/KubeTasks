@@ -54,7 +54,9 @@ Node.js, Docker, Terraform, conta na GCP, Git
 O projeto utiliza o GitLab CI/CD para automação. O estágio de build cria e envia a imagem do Docker para o registro. O estágio de deploy utiliza o Kubernetes para implantar a aplicação.
 
 ## Contribuição
->Instruções sobre como outros desenvolvedores podem contribuir para o projeto.
+Fiquem à vontade para contribuir com o projeto! Seja quaisquer correções, melhorias e principalmente um front end para esta aplicação!
+
+>Instruções para colaborar com o projeto abaixo:
 
     Faça um fork do projeto
     
