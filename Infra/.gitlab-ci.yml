@@ -3,7 +3,7 @@ stages:
   - deploy
 
 variables:
-  CONTAINER_IMAGE: https://gitlab.com/personalprojects9053307/DevOpsProject/-/tree/main?ref_type=heads
+  CONTAINER_IMAGE: ProjProd
 
 build:
   stage: build
