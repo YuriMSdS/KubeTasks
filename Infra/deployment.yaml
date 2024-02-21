@@ -1,5 +1,5 @@
 containers:
-- name: DevOpsProject
+- name: Front-end
   image: serve
   ports:
   - containerPort: 3000
