@@ -25,7 +25,7 @@ Organização do projeto:
 │   ├── main.tf
 │   ├── deployment.yaml
 │   ├── service.yaml
-├── .gitlab-ci.yml         # Configuração do GitLab CI/CD
+|   ├──.gitlab-ci.yml         # Configuração do GitLab CI/CD
 ├── .env                   # Arquivo para variáveis de ambiente (não versionar)
 └── README.md              # Documentação do Projeto
 ```
