@@ -1,4 +1,4 @@
-## DevOpsProject
+## KubeTasks
 Visando meu aprimoramento na área de DevOps, busquei desenvolver uma aplicação completa na qual eu desenvolvi a aplicação em si, arquitetei a infra e o processo de automatização
 
 ## Visão Geral
