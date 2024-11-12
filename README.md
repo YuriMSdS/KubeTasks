@@ -37,7 +37,7 @@ Node.js, Docker, Terraform, conta na GCP, Git
 ## Build
 >Construção da Imagem
 
-    docker build -t registry.gitlab.com/seuprojeto/nome-da-aplicacao .
+    docker build -t registry.gitlab.com/project/task-app  . // Exemplo
 
 >Configuração do Kubernetes
 
